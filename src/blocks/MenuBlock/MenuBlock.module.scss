@@ -1,0 +1,48 @@
+.menuWrapper {
+  padding: 120px 56px;
+  background-color: var(--color-light);
+  height: 100%;
+  display: flex;
+
+  &_controls {
+    margin-right: 106px;
+
+    &_h2 {
+      color: var(--color-dark);
+      font-family: AzeretMono, sans-serif;
+      font-size: 18px;
+      line-height: 21.6px;
+      font-weight: 700;
+      margin-bottom: 17px;
+    }
+
+    &_p {
+      color: var(--color-dark);
+      font-family: Inter, sans-serif;
+      font-size: 32px;
+      line-height: 44.8px;
+      font-weight: 400;
+      margin-bottom: 74px;
+    }
+
+    &_btns {
+      width: 531px;
+
+      &_btn {
+        margin-bottom: 12px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  &_menus {
+    width: 664px;
+
+    &_img {
+
+    }
+  }
+}
