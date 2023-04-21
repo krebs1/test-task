@@ -5,6 +5,7 @@
   display: flex;
 
   &_controls {
+    max-width: 558px;
     margin-right: 106px;
 
     &_h2 {
@@ -39,7 +40,8 @@
   }
 
   &_menus {
-    width: 664px;
+    max-width: 664px;
+    height: auto;
 
     &_img {
 

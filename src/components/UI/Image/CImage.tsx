@@ -22,7 +22,6 @@ const CImage: FC<ImageProps> = ({src = '', alt = '', width, height}) => {
                 }}/>
             }
             <img className={styles.imageWrapper_img}
-
                  src={src}
                  alt={alt}
                  onLoad={() => setIsImgLoaded(true)}

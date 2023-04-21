@@ -51,11 +51,13 @@ const MenuBlock = () => {
                     />
                 </div>
             </div>
-            <CImage src={currentImg}
-                    alt={'menu'}
-                    width={"auto"}
-                    height={"100%"}
-            />
+            <div className={styles.menuWrapper_menus}>
+                <CImage src={currentImg}
+                        alt={'menu'}
+                        width={"664px"}
+                        height={"auto"}
+                />
+            </div>
         </div>
     );
 };
